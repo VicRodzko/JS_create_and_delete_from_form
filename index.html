@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Homework 14 JS </title>
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="scripts/script.js" defer></script>
+</head>
+<body>
+	<header>
+		<div>
+			<a href="#"><img src="img/logotype_medicine_pet.png" alt="PetMedicine"></a>
+			<h1><a href="#">Wisdom Pet Medicine</a></h1>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="addTemplate">
+				<h2 id="testClick">Open</h2>
+				<h2 id="testClick2">Close</h2>
+			</div>
+			<div class="addContainer">
+				<div>
+					<p>Pet Name</p>
+					<input class="allInput" id="petName" type="text" placeholder="Pet Name">
+				</div>
+				<div>
+					<p>Pet Owner</p>
+					<input class="allInput" id="petOwner" type="text" placeholder="Owner's Name">
+				</div>
+				<div>
+					<p>Date</p>
+					<input class="allInput" id="date" type="date">
+					<p>Time</p>
+					<input class="allInput" id="time" type="time">
+				</div>
+				<div>
+					<p>Apt. Notes</p>
+					<input class="allInput" id="notes" type="text" placeholder="Appointment Notes">
+				</div>
+				<div>
+					<button class="addAppointment" >Add Appointment</button>
+				</div>
+			</div>
+		</div>
+		<div class="containerForOutput">
+			<div> 
+				<input id="flt"  type="text"> 
+				<select>
+					<option value="up">A-Z by Pet Name</option>
+					<option value="down">Z-A by Pet Name</option>
+					<option value="up2">A-Z by Owner Name</option>
+					<option value="down2">Z-A by Owner Name</option>
+				</select>
+			</div>
+		</div>
+	</main>
+	<div id="cntNotes"></div>
+</body>
+</html>

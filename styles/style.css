@@ -1,0 +1,171 @@
+* {
+	box-sizing: border-box
+}
+header {
+	background: #1E90FF;
+}
+header div {
+	width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+header div a img {
+	width: 50px;
+	margin: 10px 20px 10px 0;
+}
+header div h1 a {
+	color: white;
+	font: bold 20px 'Sans-serif';
+	text-decoration: none;
+}
+.container {
+	width: 1024px;
+	margin: 30px auto;
+	border-radius: 10px;
+	border: 1px #1E90FF solid;
+	box-shadow: 0 0 3px 2px gray;
+}
+main .container .addTemplate {
+	background: #1E90FF;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 30px;
+}
+main .container .addTemplate h2 {
+	color: white;
+	font: bold 20px 'Sans-serif';
+	text-decoration: none;
+	padding: 200px;
+}
+main .container .addTemplate h2:hover {
+	color: yellow;
+}
+.addContainer div {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.addContainer div input {
+	width: 800px;
+	margin: 15px 10px;
+	border-radius: 3px;
+	padding: 5px 10px;
+}
+.addContainer div p {
+	padding-right: 20px;
+	padding-left: 100px;
+}
+.addContainer div:nth-child(3) input {
+	width: 313px;
+}
+.addAppointment {
+	margin: 10px 10px 30px 0;
+	padding: 5px 15px;
+	background: #1E90FF;
+	border-radius: 7px;
+	color: white;
+	font: bold 15px 'Sans-serif';
+	transition: 0.7s;
+}
+.addAppointment:hover {
+	background: blue;
+	box-shadow: 0 0 3px 2px gray;	
+}
+.containerForOutput {
+	width: 1024px;
+	margin: 0 auto;
+}
+.containerForOutput div {
+	width: 500px;
+	margin: 0 auto;
+}
+.containerForOutput div input {
+	width: 400px;
+	padding: 4px 20px;
+	font: bold 15px 'Sans-serif';
+	border-radius: 5px;
+}
+input {
+	background: aliceblue;
+	border: solid 1px gray;
+	box-shadow: 0 0 2px 0px black;
+}
+.containerForOutput div select {
+	background: #1E90FF;
+	color: white;
+	width: 170px;
+	padding: 5px 5px 5px 12px;
+	border-radius: 3px;
+}
+.containerForOutput div select:hover {
+	background: blue;
+}
+#flt {
+	width: 320px;
+}
+
+
+
+/*New Elements with JS*/
+
+.newDivContainer {
+	width: 800px;
+	margin: 30px auto;
+	position: relative;
+	padding-left: 40px;
+}
+.newName {
+	font: bold 20px 'Sans-serif';
+	color: black;
+	padding-left: 40px;
+}
+.newOwner {
+	font: 14px 'Sans-serif';
+	padding-left: 40px;
+}
+.newDate {
+	position: absolute;
+	top: 0;
+	right: 50px;
+	font: italic 14px 'Sans-serif';
+}
+.newTime {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font: italic 14px 'Sans-serif';
+}
+.newNotes {
+	font: 14px 'Sans-serif';
+	padding-left: 40px;
+}
+b {
+	font-weight: bold;
+}
+.remove {
+	background: url(../img/cancel-mark.png);
+	background-size: 100%;
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 5px 15px 5px 5px;
+	position: absolute;
+	left: 0;
+	top: 0; 
+	border-radius: 7px;
+}
+.remove:hover {
+	width: 30px;
+	height: 30px;
+	transition: 0.4s;
+	margin-left: 0px;
+	box-shadow: 0 0 5px 3px gray;
+}
+.addContainer {
+	display: none;
+}
